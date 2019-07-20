@@ -1,8 +1,6 @@
 function PersonService() {
     const db = require('../db');
 
-    const handle =
-
     this.listAll = (callback) => {
         let sql = 'SELECT ' +
             '(person.first_name || \' \' || person.last_name) as name, person.birth, ' +
