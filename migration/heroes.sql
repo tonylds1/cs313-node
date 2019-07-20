@@ -23,6 +23,10 @@ CREATE TABLE heroes.hero (
   tx_history text
 );
 
+create sequence seq_hero;
+alter table heroes.hero
+alter column id set default nextval('seq_hero');
+
 CREATE TABLE heroes.power (
   id int PRIMARY KEY,
   ds_description varchar,
@@ -50,10 +54,11 @@ ALTER TABLE heroes.army ADD FOREIGN KEY (user_id) REFERENCES heroes.user (id);
 
 ALTER TABLE heroes.army ADD FOREIGN KEY (hero_id) REFERENCES heroes.hero (id);
 
-SELECT person.first_name || ' ' || person.last_name as name,
-       person.birth,
-       father.first_name || ' ' || father.last_name as father,
-       mother.first_name || ' ' || mother.last_name as mother
-FROM taw10.person person
-    left join taw10.person mother on mother.id = person.mother
-        left join taw10.person father on father.id = person.father
+select * from heroes.hero;
+insert into heroes.hero
+values
+(default, 'Batman', 'Rich guy who has lost parents for crime.'),
+(default, 'Aquaman', 'King of seas'),
+(default, 'Wander Woman', 'Goddess raised by amazons'),
+(default, 'Flash', 'Guy that receives his power by an accident when was working.'),
+(default, 'Superman', 'Alien broght to earth when was a baby. raised by farmers.');
