@@ -20,17 +20,25 @@
 
     <div class="container jumbotron col-md-4 align-items-center" >
         <div class="row justify-content-center ">
-            <h1>Hero Army</h1>
+            <h1>New Hero</h1>
         </div>
         <div class="row justify-content-center">
-            <input id='powers' class='form-control-lg col-md-8 mr-sm-2' type="text" placeholder="Type Skills to find your Hero...">
-            <button type="button" class="btn btn-primary col-md-3 btn-lg" onclick="getHeroesByPower()">Find</button>
-        </div>
-
-        <div>
-            <ul id="output">
-
-            </ul>
+            <form>
+                <div class="form-group">
+                    <label for="h-name">Hero´s Name</label>
+                    <input type="text" class="form-control" id="h-name" placeholder="Enter name">
+                </div>
+                <div class="form-group">
+                    <label for="h-history">Origins</label>
+                    <textarea class="form-control" id="h-history" name="h-history" placeholder="Hero´s origin"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="h-powers">List of Powers</label>
+                    <input class="form-control" type="text" id="h-powers" name="h-powers">
+                    <small id="h-powers-help" class="form-text text-muted">Add each power separated by ';'</small>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </div>
     </div>
 
