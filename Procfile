@@ -1,1 +1,1 @@
-web: node hero.js
+web: node index.js
