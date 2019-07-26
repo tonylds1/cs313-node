@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68ef4f6b-55a7-46a9-84e5-7ef52ea66a64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/js/hero.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/new-hero.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/heroRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/heroService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/accountRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/accountService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migration/heroes.sql" beforeDir="false" afterPath="$PROJECT_DIR$/migration/heroes.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/hero.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/hero.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/index.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,8 +110,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/accountRouter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/accountService.js">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -126,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="25" column="131" lean-forward="true" selection-start-line="25" selection-start-column="131" selection-end-line="25" selection-end-column="131" />
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -135,17 +146,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/new-hero.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="629">
               <caret line="37" column="73" selection-start-line="37" selection-start-column="73" selection-end-line="37" selection-end-column="73" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/hero.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            <state relative-caret-position="221">
+              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/heroRouter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -207,19 +227,21 @@
         <option value="$PROJECT_DIR$/routes/heroRouter.js" />
         <option value="$PROJECT_DIR$/services/heroService.js" />
         <option value="$PROJECT_DIR$/public/js/index.js" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/public/css/hero.css" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/js/hero.js" />
         <option value="$PROJECT_DIR$/public/hero.html" />
         <option value="$PROJECT_DIR$/public/new-hero.html" />
+        <option value="$PROJECT_DIR$/public/js/hero.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/services/accountService.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/routes/accountRouter.js" />
       </list>
     </option>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -230,7 +252,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,6 +306,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,7 +314,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/services" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -304,15 +326,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\BYU-I\CS 313 - Web Engineering II\secret-thicket-57295\public" />
-      <recent name="E:\BYU-I\CS 313 - Web Engineering II\secret-thicket-57295\routes" />
-      <recent name="E:\BYU-I\CS 313 - Web Engineering II\secret-thicket-57295\services" />
-      <recent name="E:\BYU-I\CS 313 - Web Engineering II\secret-thicket-57295\public\stylesheets" />
-      <recent name="E:\BYU-I\CS 313 - Web Engineering II\secret-thicket-57295" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\BYU-I\CS 313 - Web Engineering II\secret-thicket-57295\routes" />
+      <recent name="E:\BYU-I\CS 313 - Web Engineering II\secret-thicket-57295" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\BYU-I\CS 313 - Web Engineering II\secret-thicket-57295\services" />
+      <recent name="E:\BYU-I\CS 313 - Web Engineering II\secret-thicket-57295\routes" />
+      <recent name="E:\BYU-I\CS 313 - Web Engineering II\secret-thicket-57295\public" />
+      <recent name="E:\BYU-I\CS 313 - Web Engineering II\secret-thicket-57295\public\stylesheets" />
       <recent name="E:\BYU-I\CS 313 - Web Engineering II\secret-thicket-57295" />
     </key>
   </component>
@@ -347,18 +369,42 @@
       <workItem from="1563534074695" duration="627000" />
       <workItem from="1563587036527" duration="3343000" />
       <workItem from="1563788475518" duration="1170000" />
-      <workItem from="1563852781773" duration="6865000" />
+      <workItem from="1563852781773" duration="8015000" />
+      <workItem from="1563959938601" duration="13174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71014000" />
+    <option name="totallyTimeSpent" value="88244000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27760968" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28214827" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329582" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329582" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.329582" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.329582" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.329582" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.81013614" visible="true" weight="0.29903537" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.18986385" side_tool="true" weight="0.329582" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.21028744" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28214827" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -378,30 +424,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.21028744" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="npm" order="0" side_tool="true" />
-      <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" weight="0.24962178" />
-      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.81013614" visible="true" weight="0.329582" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.18986385" side_tool="true" weight="0.329582" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Database Console" order="5" weight="0.329582" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.329582" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Database" order="0" weight="0.21633889" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.21028744" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,13 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/heroRouter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/heroService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -559,20 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/hero.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="25" column="131" lean-forward="true" selection-start-line="25" selection-start-column="131" selection-end-line="25" selection-end-column="131" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -580,24 +582,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
+    <entry file="file://$PROJECT_DIR$/public/new-hero.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="629">
+          <caret line="37" column="73" selection-start-line="37" selection-start-column="73" selection-end-line="37" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/new-hero.html">
+    <entry file="file://$PROJECT_DIR$/public/css/hero.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="37" column="73" selection-start-line="37" selection-start-column="73" selection-end-line="37" selection-end-column="73" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/hero.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="221">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/passport-twitter/lib/strategy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/accountRouter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/accountService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/heroRouter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
         </state>
       </provider>
     </entry>
